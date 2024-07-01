@@ -1,8 +1,11 @@
 // https://rapidapi.com/digiwalls/api/free-to-play-games-database
 
-
-
 // Category ["mmorpg", "shooter", "sailing", "permadeath", "superhero", "pixel"]
+
+
+import { getCategoryData, getSpecificGame } from './details.module.js';
+import { getCategoryData, getSpecificGame } from './details.module.js';
+import { getCategoryData, getSpecificGame } from './details.module.js';
 
 
 async function getCategoryData(category) {
@@ -44,3 +47,5 @@ async function getSpecificGame(id) {
 getCategoryData('shooter');
 
 getSpecificGame(453);
+
+

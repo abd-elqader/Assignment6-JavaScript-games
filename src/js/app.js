@@ -47,5 +47,3 @@ async function getSpecificGame(id) {
 getCategoryData('shooter');
 
 getSpecificGame(453);
-
-
